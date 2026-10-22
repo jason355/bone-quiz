@@ -1,19 +1,31 @@
-# 3D 骨頭跑台測驗 · 3D Bone Practical Quiz
+# 3D 解剖跑台測驗 · 3D Anatomy Practical Quiz
 
-**A free, browser-based 3D bone "spotter" exam in Traditional Chinese + English.** Practise identifying bones, landmarks, foramina, joints and ligaments on interactive 3D models — no install, just open the page.
+**A free, browser-based 3D anatomy "spotter" exam in Traditional Chinese + English** — bones, muscles (and peripheral nerves, coming next). Practise identifying structures on interactive 3D models — no install, just open the page.
 
-**免費的網頁版 3D 骨頭跑台練習系統（繁體中文＋English）。** 在可旋轉的 3D 骨骼上練習辨認骨名、構造、孔洞、關節與韌帶，免安裝，開啟網頁即可使用。
+**免費的網頁版 3D 解剖跑台練習系統（繁體中文＋English）**：骨頭、肌肉（周邊神經製作中）。在可旋轉的 3D 模型上練習辨認構造，免安裝。
 
 ▶ **Live / 線上使用：** `https://jason355.github.io/bone-quiz/`
 
+## Modules / 模組
+| Page | Content |
+|---|---|
+| `index.html` | Landing page (module menu, per-module score history) |
+| `src/bones.html` | 3D bone quiz — skull, spine, thorax, girdles, limbs; foramina, joints, ligaments |
+| `src/muscles.html` | 3D muscle quiz — 60 Lab-list muscles: name, locate, origin, insertion, action, nerve supply, compartment |
+| *(next)* `nerves.html` | Peripheral nerves |
+
 ## Features
-- Exam (timed), practice (instant feedback) and Explorer (browse region → bone → structure) modes
-- Name, locate, "what passes through", left/right and bone-type questions; lenient typo grading with a correction note
-- Whole-foot / whole-hand context for small bones; joint scenes for the shoulder, elbow and knee (ACL, PCL, menisci, collateral ligaments)
-- Single self-contained `index.html` (~22 MB); needs a desktop browser with WebGL
+- Exam (timed), practice (instant feedback) and Explorer modes; lenient typo grading with a correction note
+- Free 360° rotation (drag), zoom (wheel), pan (right-drag); **R** resets the view
+- **Shuffled, non-repeating question deck** (Fisher–Yates): every question in the selected scope is asked once before any repeats; progress is saved in your browser (`localStorage`), wrong answers come back a few cards later
+- Muscles: overlying muscles are automatically "dissected" away so the target is visible; origin (blue) and insertion (green) areas are shown on reveal
+- Each page is a single self-contained HTML file (bones ≈22 MB, muscles ≈10 MB); needs a desktop browser with WebGL
+
+## Files
+`index.html`, `src/bones.html`, `src/muscles.html`, `.nojekyll`, `LICENSE`, `README.md`, `docs/` (NOTICE.md, MUSCLE_DATA.md, COVERAGE.md).
 
 ## Credits
-3D bone models are derived from **[BodyParts3D](https://lifesciencedb.jp/bp3d/)** (© The Database Center for Life Science, CC BY-SA 2.1 Japan). Ligament, meniscus and nerve/vessel-path data are derived from **[Z-Anatomy](https://www.z-anatomy.com/)** (CC BY-SA 4.0). Both were modified for this project (re-registered, smoothed, canals carved). Details: [NOTICE.md](NOTICE.md).
+3D models are derived from **[BodyParts3D](https://lifesciencedb.jp/bp3d/)** (© The Database Center for Life Science, CC BY-SA 2.1 Japan; bones) and **[Z-Anatomy](https://www.z-anatomy.com/)** (CC BY-SA 4.0; muscles, ligaments, menisci, origin/insertion areas, nerve/vessel paths). Both were modified for this project (re-registered, smoothed, simplified). Details: [NOTICE.md](docs/NOTICE.md).
 
 ## License
-Shared under **CC BY-SA 4.0** — see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). For study purposes only; not for clinical or medical use.
+Shared under **CC BY-SA 4.0** — see [LICENSE](LICENSE) and [NOTICE.md](docs/NOTICE.md). For study purposes only; not for clinical or medical use. Muscle data (origin/insertion/action/innervation) are written from standard anatomy references — see [MUSCLE_DATA.md](docs/MUSCLE_DATA.md) and verify against your course material.

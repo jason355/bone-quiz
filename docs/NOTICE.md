@@ -1,6 +1,6 @@
 # NOTICE — third-party material and attribution
 
-This project (the "3D Bone Practical Quiz", including `index.html`) is licensed under the
+This project (the "3D Anatomy Practical Quiz": `index.html`, `bones.html`, `muscles.html`) is licensed under the
 **Creative Commons Attribution-ShareAlike 4.0 International** licence (see `LICENSE`).
 Copyright of the original quiz design, code, question text and terminology tables: © [LIN SIA SHENG], [2026].
 
@@ -12,7 +12,7 @@ authors and is credited as they request.
 
 - Source: https://lifesciencedb.jp/bp3d/
 - Licence: https://creativecommons.org/licenses/by-sa/2.1/jp/
-- Used for: the 3D bone meshes (skull, vertebrae, ribs, sternum, pectoral and pelvic girdles, limbs, hands and feet).
+- Used for: the 3D bone meshes (skull, vertebrae, ribs, sternum, pectoral and pelvic girdles, limbs, hands and feet) in `bones.html`, and the bone context shown in `muscles.html`.
 - Modifications: converted to a compact binary format, re-oriented, joined/split where needed (e.g. sacrum and coccyx), smoothed, and — for the skull — cranial canals were carved into the meshes.
 - Parts of this project derived from BodyParts3D remain subject to the CC BY-SA 2.1 Japan terms (attribution and share-alike).
 
@@ -20,12 +20,15 @@ authors and is credited as they request.
 > Z-Anatomy, licensed under CC BY-SA 4.0 — https://www.z-anatomy.com/
 
 - Licence: https://creativecommons.org/licenses/by-sa/4.0/
-- Used for: ligament, meniscus and joint-capsule meshes, anatomical label positions, and nerve/vessel centre-lines used to place and carve cranial canals.
-- Modifications: re-registered onto the BodyParts3D bones, smoothed and re-coloured; centre-lines converted into canal cut-outs.
+- Used for: muscle meshes and muscle origin/insertion areas (`muscles.html`); ligament, meniscus and joint-capsule meshes, anatomical label positions, and nerve/vessel centre-lines used to place and carve cranial canals (`bones.html`).
+- Modifications: re-registered onto the BodyParts3D bones, simplified/quantised, smoothed and re-coloured; origin/insertion areas re-classified and side-corrected; centre-lines converted into canal cut-outs.
+
+## Course material
+Structure names follow the course lab list; origin/insertion/action/innervation texts were written by the author from standard anatomy references. Lecturer slide images are **not** included.
 
 ## Software
-- [three.js](https://threejs.org/) — MIT License, © three.js authors (bundled in `index.html`).
-- Build/test tooling (esbuild, Playwright, three-mesh-bvh, Blender `bpy`, trimesh) is used only to produce the file and is not redistributed.
+- [three.js](https://threejs.org/) — MIT License, © three.js authors (bundled in each HTML file).
+- Build/test tooling (esbuild, Playwright, three-mesh-bvh, Blender `bpy`, trimesh) is used only to produce the files and is not redistributed.
 
 ## Disclaimer
 Provided "as is" for education only. Anatomical positions of some structures are approximate and the models are not suitable for clinical or diagnostic use.
