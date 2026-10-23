@@ -1,5 +1,5 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>3D 骨頭跑台測驗</title><style>:root{--bg:#151b26;--panel:#101725ee;--line:#2b3856;--text:#e8edf5;--dim:#93a1b8;--btn:#27324a;--btn-b:#3b4a69;--btn-h:#33415f;--acc:#2f7df6;--acc-h:#4a90ff;--inp:#0b1019;--chip:#1a2438;--infobg:#16203a;--acc2:#7fb0ff;--veil1:#0d121cb0;--veil2:#0d121cf0;--topg:#0d121ccc;--hover:#27324a;--tipbg:#0b1019f0}
+<title>Anatomesh · 骨骼 Bones</title><style>:root{--bg:#151b26;--panel:#101725ee;--line:#2b3856;--text:#e8edf5;--dim:#93a1b8;--btn:#27324a;--btn-b:#3b4a69;--btn-h:#33415f;--acc:#2f7df6;--acc-h:#4a90ff;--inp:#0b1019;--chip:#1a2438;--infobg:#16203a;--acc2:#7fb0ff;--veil1:#0d121cb0;--veil2:#0d121cf0;--topg:#0d121ccc;--hover:#27324a;--tipbg:#0b1019f0}
 body.light{--bg:#e9eef5;--panel:#ffffffee;--line:#cfd8e6;--text:#1b2433;--dim:#5b6b84;--btn:#eef2f8;--btn-b:#c3cfe0;--btn-h:#dfe7f2;--acc:#1f6fe0;--acc-h:#3b86f0;--inp:#ffffff;--chip:#f1f5fb;--infobg:#eaf1fc;--acc2:#1f5fbf;--veil1:#e9eef5b0;--veil2:#e9eef5f0;--topg:#ffffffcc;--hover:#e3ebf7;--tipbg:#ffffffee}
 body.light .btn{color:var(--text)}body.light .btn.pri,body.light .btn.on,body.light .it.sel{color:#fff}
 body.light .hint{background:#fff6d6;border-color:#e2c866;color:#6b5400}body.light .notice{background:#fff3cf;border-color:#d9b44a;color:#6b5000}body.light .notice b{color:#1b2433}
@@ -51,11 +51,12 @@ form#ans{display:flex;gap:8px}
 .info{background:var(--infobg);border-left:3px solid var(--acc);padding:7px 10px;margin-top:8px;font-size:13.5px;line-height:1.5;border-radius:4px}
 .tbl{width:100%;border-collapse:collapse;margin:8px 0}.tbl td{padding:5px 4px;border-bottom:1px solid var(--line)}.tbl td:last-child{text-align:right}
 .wl{margin:4px 0;padding-left:20px;font-size:13.5px;line-height:1.6}
-#menu{position:fixed;inset:0;z-index:10;display:flex;align-items:center;justify-content:center;background:radial-gradient(var(--veil1),var(--veil2));overflow:auto;padding:12px}
-.card{width:min(720px,100%);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px 24px}
-.card h1{margin:0 0 6px;font-size:26px}
+#menu{position:fixed;inset:0;z-index:10;display:flex;align-items:flex-start;justify-content:center;background:radial-gradient(var(--veil1),var(--veil2));overflow:auto;padding:12px}
+#menu>.card{margin:auto}
+.card{width:min(860px,100%);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 22px}
+.card h1{margin:0 0 6px;font-size:24px}
 .sec{margin:14px 0 6px;font-size:13px;font-weight:700;color:var(--acc2)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:5px}
 .grid2{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
 .chk{display:flex;gap:8px;align-items:center;background:var(--chip);border:1px solid var(--btn-h);border-radius:8px;padding:7px 10px;font-size:13.5px;cursor:pointer}
 .chk input{accent-color:var(--acc)}
@@ -135,7 +136,7 @@ select{background:var(--inp);color:var(--text);border:1px solid var(--btn-b);bor
 
 <div id="menu">
   <div class="card">
-    <h1>🦴 3D 骨頭跑台測驗</h1>
+    <h1>🦴 Anatomesh · 3D 骨頭跑台測驗</h1>
     <p class="dim">隨機挑選骨骼構造，在 3D 模型上標出考點，像實體跑台一樣作答。範圍：頭骨、脊柱、胸廓、骨盆帶、肩帶、上肢、下肢。</p>
     <div class="sec">出題範圍</div><div id="groups" class="grid"></div>
     <div class="sec">題型</div><div id="types" class="grid"></div>
