@@ -23,6 +23,7 @@
 - **Shuffled, non-repeating question deck** (Fisher–Yates): every question in the selected scope is asked once before any repeats; progress is saved in your browser (`localStorage`), wrong answers come back a few cards later
 - Muscles: overlying muscles are automatically "dissected" away so the target is visible; origin (blue) and insertion (green) areas are shown on reveal
 - Nerves: the target nerve is highlighted orange-red among pale-yellow neighbouring nerves (with an X-ray overlay so short branches stay visible); the muscles it supplies appear on reveal; click or hover a nerve in Explorer mode to identify it
+- **Phone friendly:** icon-only top bar, a collapsible bottom sheet for questions (side panels in landscape), a list drawer in Explorer mode, larger touch targets; one file per module adapts to the screen size
 - Each page is a single self-contained HTML file (bones ≈22 MB, muscles ≈10 MB, nerves ≈8 MB); needs a desktop browser with WebGL
 
 ## Files
