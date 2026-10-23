@@ -156,3 +156,36 @@
 | 145 | Posterior cruciate ligament（後十字韌帶） | ✅ |  |
 | 146 | Medial meniscus（內側半月板） | ✅ |  |
 | 147 | Lateral meniscus（外側半月板） | ✅ |  |
+
+---
+
+# 周邊神經覆蓋率 (Peripheral nerves — Lab.txt coverage)
+
+來源：`Lab.txt` 第 163–182 行（頸、臂、腰、薦神經叢及其神經）。顱神經與脊髓構造（Lab.txt 第 145–159 行）尚未收錄。
+
+| Lab.txt 原文 | 狀態 | 備註 |
+|---|---|---|
+| Cervical plexus（頸神經叢） | ✅ | 僅列於神經叢分類 |
+| Phrenic n.（膈神經） | ⚠️ 僅文字題 | Z-Anatomy 無 3D 路徑：不出辨認／編號題 |
+| Brachial plexus（臂神經叢） | ✅ | 3D 臂神經叢（根、幹、股、束） |
+| Musculocutaneous n.（肌皮神經） | ✅ | |
+| Median n.（正中神經） | ✅ | |
+| Ulnar n.（尺神經） | ✅ | |
+| Axillary n.（腋神經） | ✅ | |
+| Radial n.（橈神經） | ✅ | |
+| Lumbar plexus（腰神經叢） | ✅ | 僅列於神經叢分類 |
+| Genitofemoral n.（生殖股神經） | ✅ | |
+| Femoral n.（股神經） | ✅ | |
+| Obturator n.（閉孔神經） | ✅ | |
+| Sacral plexus（薦神經叢） | ✅ | 僅列於神經叢分類 |
+| Superior gluteal n.（臀上神經） | ✅ | |
+| Inferior gluteal n.（臀下神經） | ⚠️ 示意路徑 | Z-Anatomy 無此曲線；依臀大肌位置示意繪製 |
+| Sciatic n.（坐骨神經） | ✅ | |
+| Tibial n.（脛神經） | ✅ | |
+| Common peroneal (fibular) n.（腓總神經） | ✅ | |
+| Superficial peroneal (fibular) n.（腓淺神經） | ✅ | |
+| Deep peroneal (fibular) n.（腓深神經） | ✅ | |
+
+講義補充（不在 Lab.txt，共 22 條，可在選單關閉）：肩胛背神經、長胸神經、鎖骨下肌神經、肩胛上神經、外胸神經、內胸神經、高肩胛下神經、胸背神經、低肩胛下神經、上臂內側皮神經、前臂內側皮神經、後骨間神經、髂腹下神經、髂鼠蹊神經、大腿外側皮神經、隱神經、梨狀肌神經、股方肌神經、大腿後皮神經、會陰神經、內側足底神經、外側足底神經。詳見 [NERVE_DATA.md](NERVE_DATA.md)。
+
+題庫：301 題（輪抽、不重複）；自動化檢查 574 個題目站，無錯誤。
