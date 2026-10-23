@@ -38,9 +38,10 @@ footer a{color:var(--acc2)}
     <p>依實驗課指定範圍：背部、臀部、上肢、下肢、胸腹壁等肌肉；起點、止點、作用與神經支配。</p>
     <div class="tags"><span>辨認肌肉</span><span>起止點</span><span>作用／神經</span></div>
     <div class="prog" id="p-muscles"></div><div class="go">開始練習 →</div></a>
-  <div class="card off" id="c-nerves"><span class="badge">籌備中 Coming soon</span><div class="ico">🧠</div><h2>神經 Nerves<small>Cranial &amp; peripheral nerves</small></h2>
-    <p>顱神經、頸／臂／腰／薦神經叢及其分支、支配肌肉與臨床表現。</p>
-    <div class="tags"><span>神經叢</span><span>支配肌肉</span><span>臨床</span></div></div>
+  <a class="card" href="src/nerves.html" id="c-nerves"><div class="ico">🧠</div><h2>神經 Nerves<small>Peripheral nerves · plexuses</small></h2>
+    <p>周邊神經系統：頸、臂、腰、薦神經叢及其分支；神經根、行經、支配肌肉、皮膚分布與臨床損傷表現。（顱神經／中樞神經之後再加入）</p>
+    <div class="tags"><span>辨認神經</span><span>神經叢</span><span>支配肌肉</span><span>臨床</span></div>
+    <div class="prog" id="p-nerves"></div><div class="go">開始練習 →</div></a>
 </div>
 <footer>3D 模型來源 / 3D models: <a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener">BodyParts3D</a> (© The Database Center for Life Science, CC BY-SA 2.1 JP) · <a href="https://www.z-anatomy.com/" target="_blank" rel="noopener">Z-Anatomy</a> (CC BY-SA 4.0)，經改作，以 CC BY-SA 分享。僅供教學練習，非醫療用途。 For study use only.<br>首次載入每個主題需下載約 20 MB 的 3D 資料，之後瀏覽器會快取。建議使用桌機版 Chrome / Edge / Firefox（需 WebGL）。</footer>
 </div>
@@ -60,5 +61,6 @@ footer a{color:var(--acc2)}
   }
   show('p-bones',get('bonequiz_v1'));
   show('p-muscles',get('musclequiz_v1'));
+  show('p-nerves',get('nervequiz_v1'));
 })();
 </script></body></html>
