@@ -1,13 +1,15 @@
-# 3D 解剖跑台測驗 · 3D Anatomy Practical Quiz
+# Anatomesh · 3D 解剖跑台測驗 (3D Anatomy Practical Quiz)
 
 **A free, browser-based 3D anatomy "spotter" exam in Traditional Chinese + English** — bones, muscles (and peripheral nerves, coming next). Practise identifying structures on interactive 3D models — no install, just open the page.
 
 **免費的網頁版 3D 解剖跑台練習系統（繁體中文＋English）**：骨頭、肌肉（周邊神經製作中）。在可旋轉的 3D 模型上練習辨認構造，免安裝。
 
-▶ **Live / 線上使用：** `https://jason355.github.io/bone-quiz/`
+▶ **Live / 線上使用：** [`https://jason355.github.io/anatomesh/`](https://jason355.github.io/anatomesh/
+)
+
 
 ## Modules / 模組
-| Page | Content |
+| Page | Content 
 |---|---|
 | `index.html` | Landing page (module menu, per-module score history) |
 | `src/bones.html` | 3D bone quiz — skull, spine, thorax, girdles, limbs; foramina, joints, ligaments |

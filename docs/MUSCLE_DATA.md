@@ -1,6 +1,6 @@
 # MUSCLE_DATA.md — 肌肉模組資料校對表 / Muscle module data for proofreading
 
-This table is the **question bank** of `muscles.html` (60 entries, covering every muscle in `Lab.txt` “The Muscular System (I)”). Names follow **Lab.txt** first; a standard-term alias (accepted when typed) is shown in brackets. Origin / insertion / action / nerve text was written from standard anatomy references and has **not** been checked against your lecture slides — please proofread it against your course material and tell me what to change (edit `zwork/mus/cat1.py`, `cat2.py`).
+This table is the **question bank** of Anatomesh’s `src/muscles.html` (60 entries, covering every muscle in `Lab.txt` “The Muscular System (I)”). Names follow **Lab.txt** first; a standard-term alias (accepted when typed) is shown in brackets. Origin / insertion / action / nerve text was written from standard anatomy references and has **not** been checked against your lecture slides — please proofread it against your course material and tell me what to change (edit `zwork/mus/cat1.py`, `cat2.py`).
 
 本表即為肌肉模組的題庫。名稱以 Lab.txt 為準，標準譯名／拼法列為別名（輸入也算對）。起止點、作用、神經支配為依標準解剖學書寫，**尚未對照你的課堂講義**，請校對後告訴我要改的地方。
 

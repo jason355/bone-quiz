@@ -1,6 +1,6 @@
 # NOTICE — third-party material and attribution
 
-This project (the "3D Anatomy Practical Quiz": `index.html`, `bones.html`, `muscles.html`) is licensed under the
+This project ("Anatomesh" — 3D Anatomy Practical Quiz: `index.html`, `src/bones.html`, `src/muscles.html`) is licensed under the
 **Creative Commons Attribution-ShareAlike 4.0 International** licence (see `LICENSE`).
 Copyright of the original quiz design, code, question text and terminology tables: © [LIN SIA SHENG], [2026].
 
